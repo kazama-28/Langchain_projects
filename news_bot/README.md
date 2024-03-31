@@ -9,7 +9,27 @@ It works particularly well for news-related articles.
 - Implement RAG via the creation of embedding vector using OpenAI's embeddings and leverage Meta's vector database FAISS for retrieval of relevant information.
 - Interact with OpenAI's ChatGPT by inputting queries and receiving answers along with the source URLs.
   
+## Installation
 
+1.Clone this repository to your local machine using:
+
+```bash
+ https://github.com/kazama-28/Langchain_projects.git
+```
+2.Navigate to the project directory:
+
+```bash
+  cd news_bot
+```
+3. Install the required dependencies using pip:
+
+```bash
+  pip install -r requirements.txt
+```
+4.Set up your OpenAI API key by adding your API to the .env file in the project root directory
+
+```bash
+  OPENAI_API_KEY=your_api_key_here
 
 
 
